@@ -1,0 +1,35 @@
+/* Blue Color:  #37447E
+Dark Blue: #091133
+Light Blue: #F3F5FF
+*/
+
+.navbar-image-container{
+    width: 10%;
+    height: 4rem;
+    zoom: 1.1;
+    /* border: 1px solid green; */
+}
+
+.navbar-navitems-container{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30%;
+    /* border: 1px solid blue; */
+    color: #091133;
+}
+
+.navbar-link{
+    text-decoration: none;
+}
+
+.navbar-navitems-container li {
+    font-size: 1.5rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.sign-container{
+    justify-content: flex-end;
+}

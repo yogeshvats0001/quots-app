@@ -1,0 +1,25 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-radius: 0.5rem;
+  margin: 0.5rem 0;
+  padding: 0 0.5rem;
+  font-family: bogle;
+  background-color: white;
+  z-index: 1;
+  border: 1px solid #37447e;
+}
+
+.card-data {
+  font-size: 1.4rem;
+  padding: 0.5rem;
+  color: #091133;
+}
+
+.card-author {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5rem;
+  color: #091133;
+}
